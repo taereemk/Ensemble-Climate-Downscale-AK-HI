@@ -1,2 +1,5 @@
 # Ensemble-Climate-Downscale-AK-HI
-NCAR RDA Dataset d010065
+
+We provide statistically downscaled and bias-corrected precipitation ('pr') and temperature ('tas') from CMIP6 GCMs for Alaska and Hawaii. We downscale the spatial resolutions to 10km for Alaska and 1km for Hawaii and use eight bias correction methods: 1) detrended quantile mapping (DQM), 2) empirical quantile mapping (EQM), 3) generalized quantile mapping (GPQM), 4) quantile delta mapping (QDM), 5) Scaling, 6) mean variance adjustment (MVA), 7) local intensity of scaling (LOCI), and 8) Variance. The dataset covers both historical and future periods up to end of the 21st century (~2100) with four shared socioeconomic pathway (SSP) scenarios (i.e., SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5; hereafter SSP126, SSP245, SSP370, and SSP585). The code used in bias correction implemented in the downscaleR R package developed by the Santander Meteorology Group (Bedia et al., 2020; Iturbide et al., 2019).
+
+Dataset is available at https://rda.ucar.edu/datasets/d010065/ (NCAR RDA Dataset d010065)
