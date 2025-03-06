@@ -1,4 +1,5 @@
-# Code used in the manuscript
+Code used in the manuscript
 
 The codes here is used for plotting bias-corrected outputs as time-series (in Alaska for example).
 Here we calculate the regional averaged time-series using 3-month time window from the bias-corrected output (i.e., eqm).
+It includes historical observation (Daymet for Alaska), eqm-corrected outputs for historical and future projections (historical, ssp126, ssp245, ssp370, ssp585).
